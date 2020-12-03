@@ -135,7 +135,7 @@ function HandleMenu(Mod)
 		end
 	end
 	
-	Menus[ #Menus + 1 ] = Options
+	Menus[#Menus + 1] = Options
 end
 
 Players.PlayerAdded:Connect(function(Plr)

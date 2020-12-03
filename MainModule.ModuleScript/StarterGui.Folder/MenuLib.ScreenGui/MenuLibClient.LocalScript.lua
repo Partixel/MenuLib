@@ -20,7 +20,7 @@ coroutine.wrap(function()
 		if not script.Parent.TopBar.Visible then
 			script.Parent.TopBar.Visible = Chat or Backpack or EmotesMenu or PlayerList
 		end
-		TopBarIcon.Parent.Position = UDim2.new( 0, 44 * (1 + (Chat and 1 or 0) + (EmotesMenu and R15 and 1 or 0)), 0, 0)
+		TopBarIcon.Parent.Position = UDim2.new(0, 44 * (1 + (Chat and 1 or 0) + (EmotesMenu and R15 and 1 or 0)), 0, 0)
 	end
 end)()
 
